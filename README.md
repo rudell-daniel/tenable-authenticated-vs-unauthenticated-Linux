@@ -74,3 +74,27 @@ privilege escalation.
 
 Using root credentials increased visibility to 61 findings and eliminated
 the credential privilege issue.
+
+## Key Findings
+
+### Authentication Increased Assessment Visibility
+
+Both Windows and Linux authenticated assessments produced substantially
+greater host-level visibility than their unauthenticated counterparts.
+
+### Valid Credentials Do Not Guarantee Complete Coverage
+
+The assessments demonstrated that successful authentication should be
+validated separately from assessment completeness.
+
+### Linux Privilege Level Affected Assessment Depth
+
+The standard Linux account successfully authenticated, but Tenable reported
+insufficient privileges for some assessment operations. Root-level
+authentication eliminated the credential privilege issue and provided
+additional host-level information.
+
+### Credential Validation Is Critical
+
+Credential status plugins were reviewed to verify whether authentication
+succeeded before interpreting the results as authenticated assessments.
