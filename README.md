@@ -98,3 +98,40 @@ additional host-level information.
 
 Credential status plugins were reviewed to verify whether authentication
 succeeded before interpreting the results as authenticated assessments.
+
+## Linux Assessment Evidence
+
+### Unauthenticated Assessment
+
+![Linux unauthenticated assessment](linux/screenshots/01-unauthenticated-results.png)
+
+### Standard-User Authenticated Assessment
+
+![Linux standard-user authenticated assessment](linux/screenshots/02-standard-user-authenticated-results.png)
+
+### Standard-User Credential Validation
+
+![Linux insufficient privilege validation](linux/screenshots/03-standard-user-credential-validation.png)
+
+### Root Authenticated Assessment
+
+![Linux root authenticated assessment](linux/screenshots/04-root-authenticated-results.png)
+
+### Root Credential Validation
+
+![Linux root credential validation](linux/screenshots/05-root-credential-validation.png)
+
+## Skills Demonstrated
+
+- Tenable Vulnerability Management
+- Vulnerability Assessment
+- Authenticated Vulnerability Scanning
+- Credential Validation
+- Vulnerability Analysis
+- Assessment Coverage Analysis
+- Linux Privilege Analysis
+- Windows and Linux Security
+- Microsoft Azure
+- Azure Virtual Machines
+- Network Security Groups
+- SSH
