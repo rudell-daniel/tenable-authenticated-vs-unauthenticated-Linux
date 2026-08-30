@@ -56,3 +56,21 @@ Although valid credentials were confirmed, the authenticated assessment
 also demonstrated that successful authentication does not necessarily
 guarantee complete assessment coverage.
 
+## Linux Assessment Results
+
+| Assessment | Credential Status | Findings |
+|---|---|---:|
+| Unauthenticated | No credentials provided | 22 |
+| Authenticated - Standard User | Valid credentials / insufficient privilege | 57 |
+| Authenticated - Root | Valid credentials / no credential issues | 61 |
+
+The unauthenticated assessment identified 22 findings and reported that
+OS security patch assessment was not available.
+
+Valid standard-user credentials increased visibility to 57 findings and
+made OS security patch assessment available. However, Tenable identified
+insufficient privileges and reported that some SSH commands required
+privilege escalation.
+
+Using root credentials increased visibility to 61 findings and eliminated
+the credential privilege issue.
