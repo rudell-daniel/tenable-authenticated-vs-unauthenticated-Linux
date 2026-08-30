@@ -40,3 +40,19 @@ The project consists of two comparative assessments:
 - Authenticated assessment using elevated/root credentials
 - Credential and privilege validation
 - Comparison of assessment visibility
+
+## Windows Assessment Results
+
+| Assessment | Credential Status | Findings |
+|---|---|---:|
+| Unauthenticated | No credentials provided | 46 |
+| Authenticated | Valid credentials provided | 79 |
+
+Authenticated scanning identified 33 additional findings and provided
+substantially greater host-level visibility than the unauthenticated
+assessment.
+
+Although valid credentials were confirmed, the authenticated assessment
+also demonstrated that successful authentication does not necessarily
+guarantee complete assessment coverage.
+
